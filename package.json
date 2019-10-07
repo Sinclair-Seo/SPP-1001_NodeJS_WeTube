@@ -1,0 +1,25 @@
+{
+  "name": "spp-1001_nodejs_wetube",
+  "version": "1.0.0",
+  "description": "Cloning Youtube with NodeJS and Vanila Script",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sinclair-Seo/SPP-1001_NodeJS_WeTube.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Sinclair Seo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sinclair-Seo/SPP-1001_NodeJS_WeTube/issues"
+  },
+  "homepage": "https://github.com/Sinclair-Seo/SPP-1001_NodeJS_WeTube#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
