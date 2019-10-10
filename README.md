@@ -64,7 +64,7 @@ Cloning Youtube with NodeJS and Vanila Script
 
 - [x] [2.16 Local Variables in Pug (9:03)](https://academy.nomadcoders.co/courses/435438/lectures/6823325)
 
-- [ ] 2.17 Template Variables in Pug (4:39)
+- [x] [2.17 Template Variables in Pug (4:39)](https://academy.nomadcoders.co/courses/435438/lectures/6823322)
 
 - [ ] Quiz #3
 
