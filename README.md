@@ -72,7 +72,7 @@ Cloning Youtube with NodeJS and Vanila Script
 
 - [x] [2.19 Join : Log In HTML (11:17)](https://academy.nomadcoders.co/courses/435438/lectures/6823328)
 
-- [ ] 2.20 Change Profile HTML (6:55)
+- [x] [2.20 Change Profile HTML (6:55)](https://academy.nomadcoders.co/courses/435438/lectures/6823327)
 
 - [ ] 2.21 Home Controller (11:01)
 
