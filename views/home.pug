@@ -1,4 +1,7 @@
 extends layouts/main
 
 block content
-    p Home by pug with template
+    .videos
+        each item in videos
+            h3=item.title
+            p=item.description
