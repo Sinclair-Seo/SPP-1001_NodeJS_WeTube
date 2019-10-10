@@ -1,4 +1,9 @@
 extends layouts/main
 
 block content
-    p Login by pug
+    .form__container
+        form(action=routes.home, method="get")
+            input(type="text", name="fullname", placeholder="Full Name")
+            input(type="password", name="password", placeholder="Password")
+            input(type="submit", value="Log In")
+        include partials/socialLogin
