@@ -66,9 +66,9 @@ Cloning Youtube with NodeJS and Vanila Script
 
 - [x] [2.17 Template Variables in Pug (4:39)](https://academy.nomadcoders.co/courses/435438/lectures/6823322)
 
-- [ ] Quiz #3
+- [x] [Quiz #3](https://academy.nomadcoders.co/courses/435438/lectures/9319415)
 
-- [ ] 2.18 Search Controller (10:42)
+- [x] [2.18 Search Controller (10:42)](https://academy.nomadcoders.co/courses/435438/lectures/6823326)
 
 - [ ] 2.19 Join : Log In HTML (11:17)
 

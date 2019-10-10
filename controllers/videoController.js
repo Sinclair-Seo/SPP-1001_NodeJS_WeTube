@@ -1,9 +1,18 @@
 export const homeController = (req, res) => res.render("home", {
     pageTitle: "Home"
 });
-export const searchController = (req, res) => res.render("search", {
-    pageTitle: "Search"
-});
+export const searchController = (req, res) => {
+    // console.log(req.query.term);
+    const {
+        query: {
+            term: searchingBy
+        }
+    } = req;
+    res.render("search", {
+        pageTitle: "Search",
+        searchingBy
+    })
+};
 export const videoHomeController = (req, res) => res.render("Home", {
     pageTitle: "Video Home"
 });
