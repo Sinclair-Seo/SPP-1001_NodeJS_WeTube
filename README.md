@@ -58,7 +58,7 @@ Cloning Youtube with NodeJS and Vanila Script
 
 - [x] [2.13 Installing Pug (6:36)](https://academy.nomadcoders.co/courses/435438/lectures/6823321)
 
-- [ ] 2.14 Layouts with Pug (9:36)
+- [x] [2.14 Layouts with Pug (9:36)](https://academy.nomadcoders.co/courses/435438/lectures/6823323)
 
 - [ ] 2.15 Partials with Pug (9:12)
 
