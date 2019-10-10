@@ -58,17 +58,17 @@ Cloning Youtube with NodeJS and Vanila Script
 
 - [x] [2.13 Installing Pug (6:36)](https://academy.nomadcoders.co/courses/435438/lectures/6823321)
 
-- [ ] 2.14 Layouts with Pug (9:36)
+- [x] [2.14 Layouts with Pug (9:36)](https://academy.nomadcoders.co/courses/435438/lectures/6823323)
 
-- [ ] 2.15 Partials with Pug (9:12)
+- [x] [2.15 Partials with Pug (9:12)](https://academy.nomadcoders.co/courses/435438/lectures/6823324)
 
-- [ ] 2.16 Local Variables in Pug (9:03)
+- [x] [2.16 Local Variables in Pug (9:03)](https://academy.nomadcoders.co/courses/435438/lectures/6823325)
 
-- [ ] 2.17 Template Variables in Pug (4:39)
+- [x] [2.17 Template Variables in Pug (4:39)](https://academy.nomadcoders.co/courses/435438/lectures/6823322)
 
-- [ ] Quiz #3
+- [x] [Quiz #3](https://academy.nomadcoders.co/courses/435438/lectures/9319415)
 
-- [ ] 2.18 Search Controller (10:42)
+- [x] [2.18 Search Controller (10:42)](https://academy.nomadcoders.co/courses/435438/lectures/6823326)
 
 - [ ] 2.19 Join : Log In HTML (11:17)
 
