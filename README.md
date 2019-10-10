@@ -52,7 +52,7 @@ Cloning Youtube with NodeJS and Vanila Script
 
 - [x] [2.10 MVC Pattern part Two (11:09)](https://academy.nomadcoders.co/courses/435438/lectures/6811581)
 
-- [ ] 2.11 MVC Pattern part Three (8:37)
+- [x] [2.11 MVC Pattern part Three (8:37)](https://academy.nomadcoders.co/courses/435438/lectures/6811578)
 
 - [ ] 2.12 Recap (4:23)
 
