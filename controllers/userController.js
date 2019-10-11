@@ -1,6 +1,30 @@
-export const joinController = (req, res) => res.render("join", {
-    pageTitle: "Join"
-});
+export const getJoinController = (req, res) => {
+    res.render("join", {
+        pageTitle: "Join"
+    });
+};
+export const postJoinController = (req, res) => {
+    console.log(req.body);
+    const {
+        body: {
+            fullname,
+            email,
+            password,
+            password2
+        }
+    } = req;
+    if (password !== password2) {
+        res.status(400);
+        res.render("join", {
+            pageTitle: "Join"
+        });
+    } else {
+        // To Do: Register User
+        res.redirect(routes.home);
+    }
+
+};
+
 export const loginController = (req, res) => res.render("login", {
     pageTitle: "Login"
 });

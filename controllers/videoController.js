@@ -15,7 +15,8 @@ export const searchController = (req, res) => {
     } = req;
     res.render("search", {
         pageTitle: "Search",
-        searchingBy
+        searchingBy,
+        videos
     })
 };
 export const videoHomeController = (req, res) => res.render("Home", {
