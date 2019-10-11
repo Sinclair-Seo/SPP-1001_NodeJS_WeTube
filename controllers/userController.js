@@ -1,17 +1,15 @@
-export const getJoinController = (req, res) => {
+import routes from "../routes";
+
+// Join Controller
+export const getJoin = (req, res) => {
     res.render("join", {
         pageTitle: "Join"
     });
 };
-export const postJoinController = (req, res) => {
+export const postJoin = (req, res) => {
     console.log(req.body);
     const {
-        body: {
-            fullname,
-            email,
-            password,
-            password2
-        }
+        body: { fullname, email, password, password2 }
     } = req;
     if (password !== password2) {
         res.status(400);
@@ -22,24 +20,37 @@ export const postJoinController = (req, res) => {
         // To Do: Register User
         res.redirect(routes.home);
     }
-
 };
 
-export const loginController = (req, res) => res.render("login", {
-    pageTitle: "Login"
-});
-export const logoutController = (req, res) => res.render("logout", {
-    pageTitle: "Logout"
-});
-export const userHomeController = (req, res) => res.render("home", {
-    pageTitle: "User Home"
-});
-export const userDetailController = (req, res) => res.render("userDetail", {
-    pageTitle: "User Detail"
-});
-export const editProfileController = (req, res) => res.render("editProfile", {
-    pageTitle: "Edit Profile"
-});
-export const changePasswordController = (req, res) => res.render("changePassword", {
-    pageTitle: "Change Password"
-});
+// Login Controller
+export const getLogin = (req, res) =>
+    res.render("login", {
+        pageTitle: "Login"
+    });
+export const postLogin = (req, res) => {
+    res.redirect(routes.home);
+};
+
+// Log out Controller
+export const logout = (req, res) =>
+    res.render("logout", {
+        pageTitle: "Logout"
+    });
+
+// User Detail Controller
+export const userDetail = (req, res) =>
+    res.render("userDetail", {
+        pageTitle: "User Detail"
+    });
+
+// Edit User Profile Controller
+export const editProfile = (req, res) =>
+    res.render("editProfile", {
+        pageTitle: "Edit Profile"
+    });
+
+// Change User Password Controller
+export const changePassword = (req, res) =>
+    res.render("changePassword", {
+        pageTitle: "Change Password"
+    });
