@@ -64,27 +64,27 @@ Cloning Youtube with NodeJS and Vanila Script
 
 - [x] [2.16 Local Variables in Pug (9:03)](https://academy.nomadcoders.co/courses/435438/lectures/6823325)
 
-- [ ] 2.17 Template Variables in Pug (4:39)
+- [x] [2.17 Template Variables in Pug (4:39)](https://academy.nomadcoders.co/courses/435438/lectures/6823322)
 
-- [ ] Quiz #3
+- [x] [Quiz #3](https://academy.nomadcoders.co/courses/435438/lectures/9319415)
 
-- [ ] 2.18 Search Controller (10:42)
+- [x] [2.18 Search Controller (10:42)](https://academy.nomadcoders.co/courses/435438/lectures/6823326)
 
-- [ ] 2.19 Join : Log In HTML (11:17)
+- [x] [2.19 Join : Log In HTML (11:17)](https://academy.nomadcoders.co/courses/435438/lectures/6823328)
 
-- [ ] 2.20 Change Profile HTML (6:55)
+- [x] [2.20 Change Profile HTML (6:55)](https://academy.nomadcoders.co/courses/435438/lectures/6823327)
 
-- [ ] 2.21 Home Controller (11:01)
+- [x] [2.21 Home Controller (11:01)](https://academy.nomadcoders.co/courses/435438/lectures/6839056)
 
-- [ ] 2.22 Home Controller part Two (10:54)
+- [x] [2.22 Home Controller part Two (10:54)](https://academy.nomadcoders.co/courses/435438/lectures/6839055)
 
-- [ ] 2.23 Join Controller (12:08)
+- [x] [2.23 Join Controller (12:08)](https://academy.nomadcoders.co/courses/435438/lectures/6839057)
 
-- [ ] 2.24 Log In and User Profile Controller (10:27)
+- [x] [2.24 Log In and User Profile Controller (10:27)](https://academy.nomadcoders.co/courses/435438/lectures/6839058)
 
-- [ ] 2.25 More Controlers (10:33)
+- [x] [2.25 More Controlers (10:33)](https://academy.nomadcoders.co/courses/435438/lectures/6839059)
 
-- [ ] Quiz #4
+- [x] [Quiz #4](https://academy.nomadcoders.co/courses/435438/lectures/9319437)
 
 ### 3 MongoDB
 
