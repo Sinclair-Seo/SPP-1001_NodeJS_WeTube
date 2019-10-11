@@ -78,7 +78,7 @@ Cloning Youtube with NodeJS and Vanila Script
 
 - [x] [2.22 Home Controller part Two (10:54)](https://academy.nomadcoders.co/courses/435438/lectures/6839055)
 
-- [ ] 2.23 Join Controller (12:08)
+- [x] [2.23 Join Controller (12:08)](https://academy.nomadcoders.co/courses/435438/lectures/6839057)
 
 - [ ] 2.24 Log In and User Profile Controller (10:27)
 
