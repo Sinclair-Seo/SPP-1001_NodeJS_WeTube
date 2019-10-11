@@ -22,10 +22,18 @@ export const search = (req, res) => {
 };
 
 // Upload Controller
-export const upload = (req, res) =>
+export const getUpload = (req, res) =>
     res.render("upload", {
         pageTitle: "Upload"
     });
+
+export const postUpload = (req, res) => {
+    const {
+        body: { file, Title, Description }
+    } = req;
+    // To Do: Upload and save the video uploaded
+    res.redirect(routes.videoDetail(1212121));
+};
 
 // Video Detail Controller
 export const videoDetail = (req, res) =>
