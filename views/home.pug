@@ -4,8 +4,10 @@ include mixins/videoBlock
 block content
     .videos
         each item in videos
-            +videoBlock({
-                title:item.title,
-                videoFile:item.videoFile,
-                views:item.views
-                })
+            a(href=routes.videoDetail(item.id))
+                +videoBlock({
+                    id:item.id,
+                    title:item.title,
+                    videoFile:item.videoFile,
+                    views:item.views
+                    })

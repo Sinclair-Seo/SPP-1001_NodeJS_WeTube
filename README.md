@@ -82,9 +82,9 @@ Cloning Youtube with NodeJS and Vanila Script
 
 - [x] [2.24 Log In and User Profile Controller (10:27)](https://academy.nomadcoders.co/courses/435438/lectures/6839058)
 
-- [ ] 2.25 More Controlers (10:33)
+- [x] [2.25 More Controlers (10:33)](https://academy.nomadcoders.co/courses/435438/lectures/6839059)
 
-- [ ] Quiz #4
+- [x] [Quiz #4](https://academy.nomadcoders.co/courses/435438/lectures/9319437)
 
 ### 3 MongoDB
 
