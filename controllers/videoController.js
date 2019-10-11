@@ -1,36 +1,46 @@
-import {
-    videos
-} from "../db";
+import routes from "../routes";
+import { videos } from "../db";
 
-export const homeController = (req, res) => res.render("home", {
-    pageTitle: "Home",
-    videos
-});
-export const searchController = (req, res) => {
+// Home Controller
+export const home = (req, res) =>
+    res.render("home", {
+        pageTitle: "Home",
+        videos
+    });
+
+// Search Video Controller
+export const search = (req, res) => {
     // console.log(req.query.term);
     const {
-        query: {
-            term: searchingBy
-        }
+        query: { term: searchingBy }
     } = req;
     res.render("search", {
         pageTitle: "Search",
         searchingBy,
         videos
-    })
+    });
 };
-export const videoHomeController = (req, res) => res.render("Home", {
-    pageTitle: "Video Home"
-});
-export const uploadController = (req, res) => res.render("upload", {
-    pageTitle: "Upload"
-});
-export const videoDetailController = (req, res) => res.render("videoDetail", {
-    pageTitle: "Video Detail"
-});
-export const editVideoController = (req, res) => res.render("editVideo", {
-    pageTitle: "Edit Video"
-});
-export const deleteVideoController = (req, res) => res.render("deleteVideo", {
-    pageTitle: "Delete Video"
-});
+
+// Upload Controller
+export const upload = (req, res) =>
+    res.render("upload", {
+        pageTitle: "Upload"
+    });
+
+// Video Detail Controller
+export const videoDetail = (req, res) =>
+    res.render("videoDetail", {
+        pageTitle: "Video Detail"
+    });
+
+// Edit Video Controller
+export const editVideo = (req, res) =>
+    res.render("editVideo", {
+        pageTitle: "Edit Video"
+    });
+
+// Delete Video Controller
+export const deleteVideo = (req, res) =>
+    res.render("deleteVideo", {
+        pageTitle: "Delete Video"
+    });
