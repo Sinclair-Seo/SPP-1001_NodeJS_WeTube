@@ -88,11 +88,11 @@ Cloning Youtube with NodeJS and Vanila Script
 
 ### 3 MongoDB
 
-- [ ] 3.0 MongoDB and Mongoose (6:32)
+- [x] [3.0 MongoDB and Mongoose (6:32)](https://academy.nomadcoders.co/courses/435438/lectures/6839240)
 
-- [ ] 3.1 Connecting to MongoDB (9:16)
+- [x] [3.1 Connecting to MongoDB (9:16)](https://academy.nomadcoders.co/courses/435438/lectures/6839236)
 
-- [ ] 3.2 Configuring Dot Env (3:14)
+- [x] [3.2 Configuring Dot Env (3:14)](https://academy.nomadcoders.co/courses/435438/lectures/6839237)
 
 - [ ] 3.3 Video Model (7:17)
 
