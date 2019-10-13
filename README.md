@@ -94,7 +94,7 @@ Cloning Youtube with NodeJS and Vanila Script
 
 - [x] [3.2 Configuring Dot Env (3:14)](https://academy.nomadcoders.co/courses/435438/lectures/6839237)
 
-- [ ] 3.3 Video Model (7:17)
+- [x] [3.3 Video Model (7:17)](https://academy.nomadcoders.co/courses/435438/lectures/6839241)
 
 - [ ] 3.4 Comment Model (7:49)
 
