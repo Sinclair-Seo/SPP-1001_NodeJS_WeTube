@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { stringLiteral } from "babel-types";
 
 const VideoSchema = new mongoose.Schema({
     fileUrl: {

@@ -4,6 +4,7 @@ dotenv.config();
 
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
+    useFindAndModify: true,
     useUnifiedTopology: true
 });
 
@@ -14,8 +15,8 @@ const handleError = error => console.log(`❌  Error on DB Connection ${error}`)
 
 db.once("open", handleOpen);
 db.on("error", handleError);
-
-/* export const videos = [{
+/* 
+export const videos = [{
         id: 324393,
         title: "Video awesome",
         description: "This is something I love",
@@ -26,10 +27,10 @@ db.on("error", handleError);
             name: "Nicolas",
             email: "nico@las.com"
         }
-        title: "Video super",
     },
     {
         id: 1212121,
+        title: "Video super",
         description: "This is something I love",
         views: 24,
         videoFile: "https://ia800300.us.archive.org/17/items/BigBuckBunny_124/Content%2Fbig_buck_bunny_720p_surround.mp4",
@@ -38,7 +39,8 @@ db.on("error", handleError);
             name: "Nicolas",
             email: "nico@las.com"
         }
-    }, {
+    },
+    {
         id: 55555,
         title: "Video nice",
         description: "This is something I love",
@@ -49,7 +51,8 @@ db.on("error", handleError);
             name: "Nicolas",
             email: "nico@las.com"
         }
-    }, {
+    },
+    {
         id: 11111,
         title: "Video perfect",
         description: "This is something I love",
